@@ -1,0 +1,26 @@
+{
+  "name": "react-native-root-back-behavior",
+  "version": "1.0.3",
+  "description": "react native handle root screen hardware back press",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dot-env/react-native-root-back-behavior.git"
+  },
+  "author": "dot-env <zmzchn@gmail.com>",
+  "license": "MIT",
+  "main": "./index.js",
+  "keywords": [
+    "react-native",
+    "android",
+    "back behavior"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "react-native-exit-app": "^1.1.0",
+    "@react-navigation/native": "^6.1.1",
+    "react-native-root-toast": "^3.3.1"
+  }
+}
