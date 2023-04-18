@@ -1,6 +1,6 @@
 {
   "name": "react-native-root-back-behavior",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react native handle root screen hardware back press",
   "repository": {
     "type": "git",

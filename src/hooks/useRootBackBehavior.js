@@ -4,7 +4,7 @@ import { BackHandler } from 'react-native'
 import ExitApp from 'react-native-exit-app'
 import { ToastAtCenter } from '../components/Toast'
 
-function useRootBackBehavior() {
+function useRootBackBehavior(tip) {
   const lastTime = useRef()
 
   useFocusEffect(
@@ -15,7 +15,7 @@ function useRootBackBehavior() {
           return true
         } else {
           lastTime.current = new Date().getTime()
-          ToastAtCenter('再按一次退出应用')
+          ToastAtCenter(tip || '再按一次退出应用')
           return true
         }
       }
